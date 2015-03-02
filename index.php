@@ -16,14 +16,8 @@ td { padding: 0.5em; }
 </head>
 <body>
 <?php
-function ConnectDatabase() {
-	$srvrname = "localhost";
-	$uname = "root";
-	$pword = "";
-	$dbname = "project";
-	
-	return new mysqli($srvrname, $uname, $pword, $dbname);
-}
+
+require_once('config.php');
 
 function FillDatabase() {
 	global $key, $id, $paths;
@@ -205,6 +199,7 @@ function parseHeroName ($hero_id) {
 	return $herolist[$hero_id];
 }
 
+global $key, $id;
 
 ini_set('xdebug.var_display_max_depth', -1);
 ini_set('xdebug.var_display_max_children', -1);
@@ -212,11 +207,6 @@ ini_set('xdebug.var_display_max_data', -1);
 
 $paths = explode("/", substr($_SERVER['REQUEST_URI'], 1));
 $resource = array_shift($paths);
-
-	// VARIABLES
-	$id = '12934264';
-	$key = 'AD3433F4B0A0E2996580E4E8321BB2C9';
-	// VARIABLES_END
 	
 	$herolist = HeroList($key);
 	
