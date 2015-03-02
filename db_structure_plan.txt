@@ -1,0 +1,30 @@
+matches
+	-duration
+	-radiant_win
+	-game_mode
+	-lobby
+	-match_id(uniq)
+	-first_blood_time
+
+players
+	-id (uniq)
+	-match_id(foreign_key)
+	-account_id
+	-player_slot
+	-hero_id
+	-kills
+	-deaths
+	-assists
+	-last_hits
+	-denies
+	-xp_per_min
+	-gold_per_min
+	-hero_damage
+	-tower_damage
+	-hero_healing
+	-level
+
+heroes
+	-hero_id
+	-hero_name
+	-hero_image_path

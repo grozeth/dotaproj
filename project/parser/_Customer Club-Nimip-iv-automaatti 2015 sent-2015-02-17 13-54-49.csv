@@ -1,0 +1,8 @@
+"id";"firstname";"lastname";"email";"externalid";"date";"optout";"optout_triggered";"info_account_name";"info_account_owner";"info_address";"info_allocated_code_sendout_tm4";"info_city";"info_country";"info_first_opportunity_won";"info_max_invoice_date";"info_mobile";"info_mobile_ordered";"info_opop";"info_order_type";"info_profile_updated_date";"info_title";"info_zip"
+"163017940";"";"";"arto1@seedww.com";"";"2015-02-05 13:00:16";"0";"0";"";"";"";"";"";"";"";"";"+358505928119";"";"";"kännykkääsi";"";"";""
+"101577399";"Klaus";"Pärssinen";"arto.parssinen@seedww.com";"";"2015-02-05 13:55:07";"0";"0";"b";"pekka_rasanen";"";"test1";"";"";"";"";"+358505928119";"";"";"kännykkääsi";"";"";""
+"167386384";"Ähmelö";"Ågramöntinen";"olli10@seedww.com";"";"2015-02-13 12:35:12";"0";"0";"";"";"";"huuhaa6";"";"";"";"";"";"";"";"";"";"";""
+"167386385";"Åke";"Aargesh-Hummel";"olli11@seedww.com";"";"2015-02-13 12:35:12";"1";"0";"";"";"";"test3";"";"";"";"";"";"";"";"";"";"";""
+"167390412";"miihkali";"test";"olli4@seedww.com";"";"2015-02-13 12:35:12";"0";"0";"";"";"";"test2";"";"";"";"";"+358407186212";"";"";"sähköpostiisi";"";"";""
+"96000618";"seed";"test";"seed.testall@gmail.com";"";"2015-02-13 14:03:58";"0";"0";"Test account name 2";"pekka_rasanen";"Teollisuuskatu 21";"huuhaa5";"Helsinki";"Finland";"2009-01-01";"2013-05-17";"+358407186212";"1";"1";"kännykkääsi";"";"Titteli";"00510"
+"167390521";"Örvelö";"Böö";"olli.hassinen@gmail.com";"";"2015-02-13 14:03:59";"0";"0";"";"";"";"";"";"";"";"";"";"";"";"";"";"";""
