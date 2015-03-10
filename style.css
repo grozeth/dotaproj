@@ -1,0 +1,75 @@
+table { width: 100%; }
+body { background: #111; font-family: Arial, sans-serif;}
+a {color: #000000;}
+.match { border: 1px solid #eee; padding: 0 1em; background: #333; color: #eee; margin: 1em 0;}
+.match a, a:active, a:hover { color: #eee; }
+	
+.match .radiant { color: #55aa55; }
+.radiant-bg { background: #223322; }
+.match .radiant p{ font-weight: bold; }
+.match .dire { color: #aa5555;  }
+.dire-bg { background: #332222; }
+.match .dire p{ font-weight: bold; }
+.match .team { padding: 1em; }
+td { padding: 0.5em; }
+.win {color: #55ff55; text-decoration: none;}
+.lose { color: #ff5555; text-decoration: none;}
+
+#wrapper { width: 960px; margin: 0px auto;}
+#content-area { background: #eeeeee; padding: 1em 20px;}
+
+#menu { background: #1c1c1c; position: relative; }
+
+#menu div {
+	float: left;
+}
+#menu div a{
+	display: block;
+	padding: 1em 2em;
+	background: #333;
+	color: #fff;
+	border-top: 1px solid #222;
+	border-left: 1px solid #222;
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+}
+#menu div a:hover {
+	border: 1px solid #333!important;
+	background: #222;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.team-details {
+	color: #ccc;
+	width: 100%;
+}
+.radiant-bg .team-details  {
+	border: 1px solid #112211;
+}
+.dire-bg  .team-details {
+	border: 1px solid #221111;
+}
+.team-details td {width: 6.33%; }
+.team-details td:first-child { width: 24%; }
+.radiant-bg .team-details td, .radiant-bg .team-details th{
+	background: #334433;
+}
+.dire-bg .team-details td, .dire-bg .team-details th{
+	background: #443333;
+}
+.radiant-bg .team-details td.fill{
+	background: #112211;
+}
+.dire-bg .team-details td.fill{
+	background: #221111;
+}
+.team-details td, .team-details th {
+	padding: 0.1em 0.5em;
+}
+.team-details .fill {
+	border: 0!important;
+	background: #000;
+}
